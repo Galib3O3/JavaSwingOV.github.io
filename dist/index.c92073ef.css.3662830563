@@ -1,0 +1,17 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f2633;
+}
+
+.bar {
+    height: 100vh;
+    width: 10rem;
+    background-color: #ff6b09;
+    position: relative;
+}
+/*# sourceMappingURL=index.c92073ef.css.map */

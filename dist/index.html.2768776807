@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.c92073ef.css">
+    <script defer="" src="/index.de5c0784.js"></script>
+</head>
+
+<body>
+    <div class="bar">
+        <div class="icn fb">
+            <img src="/facebook-square-brands.2b6c6a10.svg" alt="facebook-square-brands">
+        </div>
+        <div class="icn insta">
+            <img src="/instagram-brands.e740bc16.svg" alt="insta">
+        </div>
+        <div class="icn whatsapp">
+            <img src="/whatsapp-square-brands.90f57adb.svg" alt="whatsapp">
+        </div>
+    </div>
+</body>
+
+</html>

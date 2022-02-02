@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f2633;
+}
+
+
+/* .bar {
+    height: 100vh;
+    width: 8rem;
+    display: flex;
+    background-color: #ff6b09;
+    box-shadow: 0 0 1rem #ff6b09;
+    flex: 30%;
+} */
+
+.bar {
+    display: block;
+    height: 100vh;
+    width: 8rem;
+    position: absolute;
+    background-color: #ff6b09;
+    box-shadow: 0 0 1rem #ff6b09b7;
+    left: 10rem;
+}
+
+.icn-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.credit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150%;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 0;
+}
+
+.icn {
+    width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: white;
+    filter: drop-shadow(0px 0px 4px #ffffffb7);
+    z-index: 5;
+}
+
+
+/* hover */
+
+.icn-box :hover {
+    animation: jiggle 1s ease-out;
+}
+
+@keyframes jiggle {
+    100% {
+        transform-origin: center center;
+    }
+    15% {
+        transform: scale(1.4, 1.2);
+    }
+    40% {
+        transform: scale(0.9, 0.9);
+    }
+    75% {
+        transform: scale(1.08, 1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+
+/*
+@keyframes jiggle {
+    16.65% {
+        -webkit-transform: skew(-12deg);
+        transform: skew(-12deg);
+    }
+    33.3% {
+        -webkit-transform: skew(10deg);
+        transform: skew(10deg);
+    }
+    49.95% {
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg);
+    }
+    66.6% {
+        -webkit-transform: skew(4deg);
+        transform: skew(4deg);
+    }
+    83.25% {
+        -webkit-transform: skew(-2deg);
+        transform: skew(-2deg);
+    }
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0);
+    }
+} */
+/*# sourceMappingURL=index.c92073ef.css.map */

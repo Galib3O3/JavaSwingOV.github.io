@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f2633;
+}
+
+
+/* .bar {
+    height: 100vh;
+    width: 8rem;
+    display: flex;
+    background-color: #ff6b09;
+    box-shadow: 0 0 1rem #ff6b09;
+    flex: 30%;
+} */
+
+.bar {
+    display: flex;
+    height: 100vh;
+    width: 8rem;
+    position: absolute;
+    background-color: #ff6b09;
+    box-shadow: 0 0 1rem #ff6b09;
+    right: 30rem;
+}
+/*# sourceMappingURL=index.c92073ef.css.map */

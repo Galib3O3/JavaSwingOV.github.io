@@ -1,0 +1,204 @@
+@import "https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Teko:wght@600&display=swap";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1f2633;
+    color: white;
+    border: none;
+    font-weight: none;
+    /*  */
+    width: 100vw;
+    height: 100vh;
+}
+/* .bar {
+    height: 100vh;
+    width: 8rem;
+    display: flex;
+    background-color: #ff6b09;
+    box-shadow: 0 0 1rem #ff6b09;
+    flex: 30%;
+} */
+.bar {
+    display: block;
+    height: 100vh;
+    width: 8rem;
+    position: absolute;
+    background-color: #ff6b09;
+    box-shadow: 0 0 1rem #ff6b09b7;
+    left: 10rem;
+}
+.project_con {
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    top: 70vh;
+    left: 32vh;
+    line-height: 1.5rem;
+    border-color: white;
+}
+.headline h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Teko', sans-serif;
+}
+.text {
+    font-family: 'Domine', serif;
+    letter-spacing: 0.2rem;
+    padding-left: 2.3rem;
+}
+.icn-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.credit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150%;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 0;
+}
+.icn {
+    width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: white;
+    filter: drop-shadow(0px 0px 4px #ffffffb7);
+    z-index: 5;
+}
+/* hover */
+.icn-box :hover {
+    animation: jiggle 1s ease-out;
+}
+@keyframes jiggle {
+    100% {
+        transform-origin: center center;
+    }
+    15% {
+        transform: scale(1.4, 1.2);
+    }
+    40% {
+        transform: scale(0.9, 0.9);
+    }
+    75% {
+        transform: scale(1.08, 1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+.container {
+    display: flex;
+    padding-top: 1.5rem;
+    flex-direction: column;
+    /* justify-content: spacec-around; */
+    margin-left: 40rem;
+}
+.galib {
+    display: block;
+    width: 10rem;
+    /* margin-right: 22rem; */
+    filter: drop-shadow(0px 0px 5px #ff6b09);
+    margin: auto;
+    padding-bottom: 1rem;
+}
+.name {
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+/* ////////////////////////////////////// */
+/* Slideshow container */
+.slideshow-container {
+    display: block;
+    margin: auto;
+    position: relative;
+    background: #ff6b09;
+    width: 20rem;
+    height: 16rem;
+    color: white;
+    filter: drop-shadow(0px 0px 5px #ff6b09);
+    border-radius: 2px;
+}
+/* Slides */
+.mySlides {
+    display: none;
+    padding: 40px;
+    text-align: center;
+}
+.boldline {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #1f2633;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: #1f2633;
+    color: white;
+}
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+}
+/* Add a blue color to the author */
+.inner_text_con {
+    padding: 1rem;
+    font-family: 'Domine', serif;
+    line-height: 1.5rem;
+    text-align: left;
+}
+.author {
+    color: #1f2633;
+    text-align: center;
+}
+/*# sourceMappingURL=index.c92073ef.css.map */

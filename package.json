@@ -1,0 +1,15 @@
+{
+    "name": "galib",
+    "version": "1.0.0",
+    "description": "test",
+    "default": "index.html",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html --dist-dir ./dist"
+    },
+    "author": "galib",
+    "license": "ISC",
+    "dependencies": {
+        "parcel": "^2.2.1"
+    }
+}

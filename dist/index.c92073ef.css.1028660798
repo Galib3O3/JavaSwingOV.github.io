@@ -1,0 +1,30 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body {
+    background-color: #1f2633;
+} */
+
+.bar {
+    height: 100vh;
+    width: 10rem;
+    background-color: #ff6b09;
+    position: relative;
+    top: 0%;
+    left: -30rem;
+}
+
+.blur {
+    height: 100vh;
+    width: 15rem;
+    background-color: #ff6b09a4;
+    position: absolute;
+    left: -30rem;
+    top: 0;
+    filter: blur(1rem);
+}
+/*# sourceMappingURL=index.c92073ef.css.map */
